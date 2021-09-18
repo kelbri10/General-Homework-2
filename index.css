@@ -1,0 +1,69 @@
+.container{ 
+    margin: 0 auto; 
+    width: 1080px; 
+}
+
+.main-nav-bar{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main-menu{ 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-button{
+    border-style: none; 
+    background-color: blue; 
+    color: white; 
+    font-size: 18px; 
+    font-weight: bold; 
+    padding: 20px 30px; 
+    width: 500px; 
+}
+
+h1{
+    background-color: blue;
+    padding: 20px 30px; 
+    color: white; 
+}
+
+.menu-button:hover, .menu-button:focus{
+    cursor: pointer;
+    background-color: green; 
+    border-style: solid; 
+    border-color:blue; 
+}
+
+.active{ 
+    display: block; 
+}
+
+.inactive{
+    display: none; 
+}
+
+.dropdown-list{ 
+    color: black; 
+    border-style: solid;
+    border-color: black;
+    padding: 20px; 
+    margin: 0; 
+    list-style: none;
+}
+
+.dropdown-list li{ 
+    padding: 5px; 
+}
+
+.dropdown-list li:hover{
+    text-decoration: underline; 
+    cursor: pointer;
+    background-color: green; 
+    color: white; 
+    font-weight: bold;
+}
+
